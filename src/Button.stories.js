@@ -4,9 +4,9 @@ import { storiesOf } from '@storybook/react';
 import { Button } from './Button';
 
 storiesOf('Button', module)
-.add('with background', () => (
+.addWithJSX('with background', () => (
     <Button bg="pink">Hello World</Button>
 ))
-.add('with another background', () => (
+.addWithJSX('with another background', () => (
     <Button bg="yellow">Hello Another World</Button>
 ));
